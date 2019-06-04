@@ -13,7 +13,7 @@ class _ImageappState extends State<Imageapp> {
         appBar: AppBar(
           title: Text("IOSD Images"),
         ),
-        body: ,
+        body:Image.asset() ,
       ),
     );
   }
