@@ -7,6 +7,14 @@ class Imageapp extends StatefulWidget {
 class _ImageappState extends State<Imageapp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      title: "IOSD",
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("IOSD Images"),
+        ),
+        body: ,
+      ),
+    );
   }
 }
