@@ -11,9 +11,9 @@ class _ImageappState extends State<Imageapp> {
       title: "IOSD",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("IOSD Images"),
+          title: Text("IOSD Images!"),
         ),
-        body:Image.asset() ,
+        body:Image.asset("assets/iosd.jpg") ,
       ),
     );
   }
